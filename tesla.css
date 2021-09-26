@@ -1,0 +1,17 @@
+
+img
+{
+	height: 1000%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: content-box;
+	display: flex;
+}
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+}
+
