@@ -1,22 +1,20 @@
-#bloc_page
-{
-	width: 900px;
-	margin: auto;
-}
-
 
 #logo img
 {
 	width: 110px;
 	position: fixed;
 	left: 10px;
-	top: 10px;
+	top: 6px;
 }
 
 nav ul
 {
 	list-style-type: none;
-	display: flex;
+	display: inline-flex;
+	margin-left: 410px;
+	margin-right: 0px;
+	
+
 }
 
 nav li 
@@ -28,12 +26,17 @@ nav a
 {
 	font-size: 1.3em;
 	color: black;
-	padding-bottom: 3px;
 	text-decoration: none;
 }
 
 nav a:hover
 {
 	background-color: lightgrey;
-	border-radius: 10px;
+	border-radius: 9px;
+	
+}
+.barre-droite
+{
+	float: right;
+	margin-top: -36px;
 }
